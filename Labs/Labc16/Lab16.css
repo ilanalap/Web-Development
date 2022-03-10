@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box
+}
+body{
+  margin: 20;
+  background-color: rgb(197, 224, 208);
+  font-family: monospace;
+}
+footer{
+  margin-top: 200px;
+  padding: 20px;
+  text-align: center;
+}
+.header{
+  font-family: verdana;
+  background-color: antiquewhite;
+  color:navy;
+  padding: 20px;
+  text-align: center;
+}
+/*navigation bar set up*/
+.topnav{
+  background-color:gainsboro;
+  color: navy;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+.topnav a{
+  color: gray;
+  float: left;
+  display: block;
+  justify-content: center;
+  padding: 14px 16px;
+}
+.topnav a:hover{
+  background-color:antiquewhite;
+  color: navy;
+  justify-content: center;
+}
+button{
+  font-family: monospace;
+  color: navy;
+  padding: 10px;
+  font-size: 15px;
+}
+div.gallery{
+  margin:3px;
+  border: 1px double antiquewhite;
+  float: left;
+  width: 300px;
+  height: 250px;
+}
+div.gallery:hover{
+  border:3px dashed antiquewhite;
+}
+div.gallery img{
+  width:100%;
+}
+div.desc{
+  padding:10px;
+  text-align:center;
+  color: navy;
+  font-family: monospace;
+}

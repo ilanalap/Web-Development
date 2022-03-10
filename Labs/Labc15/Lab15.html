@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 15 | JavaScript</title>
+    <link rel="icon" type="image/png" href="../../Labs/Lab6/initial.png">
+    <link rel="stylesheet" href="Lab15.css"> 
+  </head>
+  <body>
+    <div class="header">
+      <h1>QCC</h1>
+      <h2>Software Eng. Bootcamp</h2>
+      <h3>Lab 15</h3>
+      <h4>Intro to Javascript</h4>
+      <h5>01/24/2022</h5>
+      <h6>Ilana Laporte</h6>
+    </div>
+    <div class="topnav">
+      <a href="http://w3schools.com">W3schools</a> 
+      <a href="http://gmail.com">GMAIL</a> 
+      <a href="http://edmodo.com">Edmodo</a>
+    </div>
+    <div class="row">
+      <div class="column">
+        <h2>HTML</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt arcu non sodales neque sodales ut etiam. Aliquet enim tortor at auctor urna. At imperdiet dui accumsan sit amet nulla facilisi. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Nam libero justo laoreet sit amet. Sed viverra tellus in hac habitasse. Tincidunt arcu non sodales neque sodales ut etiam sit. Lobortis mattis aliquam faucibus purus in. Commodo elit at imperdiet dui accumsan sit amet. Scelerisque fermentum dui faucibus in ornare quam viverra. Placerat duis ultricies lacus sed turpis. Tincidunt eget nullam non nisi. Porttitor lacus luctus accumsan tortor posuere ac ut consequat.</p>
+      </div>
+      <div class="column">
+        <h2>CSS</h2>
+        <p>Iaculis urna id volutpat lacus laoreet. Gravida in fermentum et sollicitudin ac. Enim ut sem viverra aliquet eget sit amet tellus cras. Aliquam vestibulum morbi blandit cursus risus at. Congue nisi vitae suscipit tellus mauris a. Viverra maecenas accumsan lacus vel facilisis volutpat est velit. Tortor at risus viverra adipiscing at in tellus integer. Imperdiet massa tincidunt nunc pulvinar sapien et. Vulputate sapien nec sagittis aliquam. Sit amet nisl purus in mollis nunc sed id semper.
+          <form name="addressform">
+            Name: <input name="yourname"><br>
+            Phone: <input name="phone"><br>
+            Email: <input name="email"><br>
+              <button type="button" onclick="alertFunc()";>DON'T CLICK THIS BUTTON</button>
+          </form>
+        </p>
+      </div>
+      <div class="column">
+        <h2>JavaScript</h2>
+        <p id="demo">Lorem ipsum dolor sit amet consectetur adipiscing. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Quisque egestas diam in arcu cursus euismod. Porta nibh venenatis cras sed felis eget velit aliquet. Iaculis at erat pellentesque adipiscing commodo. Imperdiet sed euismod nisi porta lorem mollis. Vitae congue mauris rhoncus aenean. A cras semper auctor neque vitae tempus. Habitant morbi tristique senectus et netus et. Lacinia quis vel eros donec ac odio tempor orci dapibus. At in tellus integer feugiat scelerisque varius. Donec ac odio tempor orci dapibus ultrices in. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Proin libero nunc consequat interdum varius sit amet mattis. Velit euismod in pellentesque massa. Gravida neque convallis a cras semper auctor neque vitae tempus. Mattis pellentesque id nibh tortor. Commodo nulla facilisi nullam vehicula ipsum a arcu.
+          <button type="button" onclick="myfirstfunction()";>Do Not Click Here</button>
+        </p>
+      </div>
+    </div>
+  <script>
+    function myfirstfunction(){
+      //my first statement creating an event handler to the event button onclick//
+      document.getElementById("demo").innerHTML ="I told you not to CLICK IT!";
+    }
+    function alertFunc(){
+     alert(document.addressform.yourname.value +" I told you not to click it!");
+    }
+    x="Hello world! "
+    document.write(x);
+    x=" is my name!"
+    document.write("Ilana" +x);
+  </script>
+  <br>
+  <a href="../Labc14/Lab14.html">Lab 14</a>
+  <a href="../../index.html">Home Page</a>
+  <a href="../Labc16/Lab16.html">Lab 16</a>
+  </body>
+</html>

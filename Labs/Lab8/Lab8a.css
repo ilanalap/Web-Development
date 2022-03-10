@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box
+}
+/*margin for the webpage*/
+body{
+  margin: 5;
+  background-color: gainsboro;
+}
+/*Style of the header*/
+.header{
+  background-color: gainsboro;
+  padding: 10px;
+  text-align: right;
+  color: seagreen;
+  font-family: cursive;
+}
+/*navigation bar set up*/
+.topnav{
+  background-color: rgb(221, 132, 16);
+  overflow: hidden;
+  font-family: fantasy;
+}
+.topnav a{
+  color: seagreen;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+.topnav a:hover{
+  background-color: gainsboro;
+  color: rgb(221, 132, 16);
+}
+/*Paragraphs set up*/
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px, 5px;
+  color: seagreen;
+}
+/*Learning*/

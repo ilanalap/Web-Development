@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box
+}
+body{
+  margin: 20;
+  background-color: rgb(197, 224, 208);
+  font-family: monospace;
+}
+footer{
+  margin-top: 200px;
+  padding: 20px;
+  text-align: center;
+}
+.header{
+  font-family: verdana;
+  background-color: antiquewhite;
+  color:navy;
+  padding: 20px;
+  text-align: center;
+}

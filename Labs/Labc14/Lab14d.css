@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box
+}
+/*margin for the webpage*/
+body{
+  margin: 10;
+}
+/*Style of the header*/
+.header{
+  background-color: #c1f1a1;
+  padding: 20px;
+  text-align: center;
+}
+/*navigation bar set up*/
+.topnav{
+  background-color: #333;
+  overflow: hidden;
+}
+.topnav a{
+  color: #ddd;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+.topnav a:hover{
+  background-color: #f1f1f1;
+  color: orange;
+}
+/*Paragraphs set up*/
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px 15px;
+}
+/*Learning*/
